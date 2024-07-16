@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://dpy812lv4237f"]
+
+[ext_resource type="Texture2D" uid="uid://db1da7jhrdax8" path="res://Frame 2.png" id="1_33qor"]
+[ext_resource type="PackedScene" uid="uid://b7i5nsm2kramj" path="res://player.tscn" id="2_xdg3u"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Frame2" type="Sprite2D" parent="."]
+position = Vector2(-5, 13)
+scale = Vector2(8.52258, 4.80968)
+texture = ExtResource("1_33qor")
+
+[node name="CharacterBody2D" parent="." instance=ExtResource("2_xdg3u")]
